@@ -1,0 +1,66 @@
+   /*css code starts here*/
+   /*css for left div*/
+   
+   .left {
+       float: left;
+       font-size: 27px;
+       border-right: 1px solid black;
+       line-height: 98px;
+       width: 432px;
+   }
+   /*css for tabright div*/
+   
+   .tabright {
+       float: right;
+   }
+   /*css for tablelist */
+   
+   #tablelist {
+       float: right;
+       line-height: 54px;
+       font-size: 25px;
+       padding-left: 8px;
+   }
+   /*css for leftdata*/
+   
+   .leftdata {
+       border-bottom: 2px solid black;
+       font-size: 30px;
+   }
+   /*css for back1 div*/
+   
+   .back1 {
+       display: none;
+   }
+   /*css for button */
+   
+   button.clickbut {
+       width: 133px;
+       height: 76px;
+       margin-top: 46px;
+       margin-left: 136px;
+       font-size: xx-large;
+       border-radius: 18px;
+   }
+   /*css for mobile format*/
+   
+   @media only screen and (max-width: 414px) {
+       .leftmobile {
+           display: none;
+       }
+       .rightmobile {
+           width: 100%;
+           display: block;
+       }
+       .back {
+           display: block;
+       }
+       .mobright {
+           display: none;
+       }
+       .butright {
+           display: none;
+       }
+   }
+   /*
+css code ends here*/
